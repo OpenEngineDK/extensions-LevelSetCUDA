@@ -1,0 +1,13 @@
+# Hello World
+
+dist /extensions/LevelSet                http://openengine.dk/code/extensions/LevelSet/LevelSet.dist
+
+darcs /extensions/LevelSetCUDA               http://openengine.dk/code/extensions/LevelSetCUDA
+darcs /extensions/CUDA                   http://openengine.dk/code/extensions/CUDA
+
+
+darcs-dev /extensions/LevelSet           fh.daimi.au.dk:/users/cgd/code/extensions/LevelSetCUDA
+darcs-dev /extensions/CUDA           fh.daimi.au.dk:/users/cgd/code/extensions/CUDA
+
+
+
