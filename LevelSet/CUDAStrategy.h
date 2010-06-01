@@ -21,6 +21,7 @@ class CUDAStrategy : public Strategy {
 public:
     CUDAStrategy();
     void Reinitialize(SDF* sdf, unsigned int iterations);
+    void BuildGradient(SDF* sdf);
 };
 
 } // NS LevelSet
